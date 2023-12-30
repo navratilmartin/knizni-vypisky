@@ -1,6 +1,8 @@
 # KnizniVypisky.cz
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+- The app is deployed <a href="https://akela.mendelu.cz/~xastapen/"></b>Here</a><br>
+<br>
 
 - KnizniVypisky.cz is a web application that allows users to find information about books and create their own notes.
 - It also allows user to group books into collections and generate or manually create tests for books in those
@@ -18,20 +20,18 @@
 
 ## Authors
 
+👤 **Martin Navrátil**<br>
+@: <a href="mailto:martinacek.n@gmail.com">martinacek.n@gmail.com</a><br>
+@: <a href="mailto:xnavra18@mendelu.cz">xnavra18@.mendelu.cz</a><br>
+
 👤 **Daniil Astapenko**<br>
-UID: xastapen<br>
-@: <a href="mailto:xastapen@node.mendelu.cz">xastapen@node.mendelu.cz</a><br>
+@: <a href="mailto:xastapen@.mendelu.cz">xastapen@.mendelu.cz</a><br>
+@: <a href="mailto:astapenko.daniil.03@gmail.com">astapenko.daniil.03@gmail.com</a><br>
 
 👤 **Petr Chatrný** <br>
-UID: xchatrny<br>
 @: <a href="mailto:xchatrny@mendelu.cz">xchatrny@mendelu.cz</a><br>
 
-👤 **Martin Navrátil**<br>
-UID: xnavra18<br>
-@: <a href="mailto:xnavra18@node.mendelu.cz">xnavra18@node.mendelu.cz</a><br>
-
 👤 **Lucie Pacáková**<br>
-UID: xpacako1<br>
 @: <a href="mailto:xpacako1@mendelu.cz">xpacako1@mendelu.cz</a><br>
 
 ## Technology stack
@@ -52,8 +52,8 @@ UID: xpacako1<br>
 ### Ordinary
 
 ```bash
-git clone https://username@bitbucket.org/mendelu/waf_ss2022_xastapen.git
-cd waf_ss2022_xastapen
+git clone https://github.com/navratilmartin/knizni-vypisky.git
+cd knizni-vypisky
 
 yarn install
 ```
@@ -61,8 +61,8 @@ yarn install
 ### Docker
 
 ```bash
-git clone https://username@bitbucket.org/mendelu/waf_ss2022_xastapen.git
-cd waf_ss2022_xastapen
+git clone https://github.com/navratilmartin/knizni-vypisky.git
+cd knizni-vypisky
 
 docker image build -t knizni-vypisky .
 docker run --name knizni-vypisky -p 8080:8080 -d knizni-vypisky
